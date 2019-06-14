@@ -1,0 +1,401 @@
+@charset "UTF-8";
+
+/* 
+	Nome: CSS - SITE CANAL GRIMM RECORDS
+	Data: Abr 2019
+	Descrição: ESTILO CSS. 
+	Versão: 0.1
+	Autor: LARISSA MOREIRA
+
+
+
+
+/* ********************** MENU TODAS AS PAGINAS *************************** */
+
+
+.menu {
+    max-width: 1100px;
+    background-color: rgba(38, 234, 42, 0.35);
+}
+
+/* limpa float */
+.menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* limpa float */
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #0A3617;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.menu li {
+    display: inline-block;
+    content: normal;
+    padding: 20px 40px;
+    width: ;
+}
+
+.menu li:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0A3617;
+}
+
+
+.menu a:hover {
+    color: #0A3617;
+}
+
+
+/* ********************** HOME *************************** */
+
+
+.ult {
+    margin: 50px auto 50px 300px;
+}
+
+
+/* *************** SECTION CAPAS CD'S ****************** */
+
+.capasmusicas > h2 {
+    text-align: center;
+    background-color: rgba(38, 234, 42, 0.35);
+    padding: 10px;
+}
+
+.boxcapasmusicas {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.boxcapasmusicas img {
+    border-radius: 10px;
+}
+
+.boxcapasmusicas h2 {
+    text-align: center;
+}
+
+
+/*Limpa Float*/
+.capasmusicas::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Limpa Float*/
+
+
+/* ********************** SOBRE *************************** */
+
+
+
+.sub {
+    text-align: center;
+}
+
+
+
+.sobre {
+    float: left;
+    font-size: 1.4em;
+    text-align: justify;
+    max-width: 600px;
+    margin-left: 10px;
+}
+
+.grimm {
+    float: right;
+    position: absolute;
+    border-radius: 20px;
+    margin: 40px 10px 0px 50px;
+}
+
+
+/* ********************** CANAL *************************** */
+
+.proxenvio {
+    float: left;
+    clear: both;
+    margin-top: 50px;
+}
+
+.proxenvio img {
+    border-radius: 20px;
+}
+
+
+.proxenvio h2 {
+    font-family: arial, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.ultenvio {
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.ultenvio2 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 70px;
+
+}
+
+
+.ultenvio h2 {
+    font-family: arial, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+/* ********************** PRINCIPAIS VIDEOS *************************** */
+
+.tabeladados {
+    border: 2px solid #0A3617;
+    border-spacing: 0px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(38, 234, 42, 0.35);
+}
+
+.tabeladados td {
+    border: 1px solid #0A3617;
+    padding: 10px;
+
+}
+
+.cd {
+    text-align: center;
+    color: #0A3617;
+}
+
+.ce {
+    text-align: left;
+    color: #0A3617;
+}
+
+.tabeladados caption {
+    text-align: center;
+    color: #0A3617;
+    font-size: 1.2em;
+    margin-top: 180px;
+    font-weight: bold;
+}
+
+.pvideos {
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.pvideos2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.pvideos3 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.pvideos4 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/* ********************** ARTISTAS *************************** */
+
+
+.imggeral > h2 {
+    text-align: center;
+}
+
+.imgg {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgg img {
+    border-radius: 10px;
+}
+
+.imgg h2 {
+    text-align: center;
+}
+
+/*Limpa Float*/
+.imggeral::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Limpa Float*/
+
+
+/* ********************** CONTATO *************************** */
+
+
+/* ************* FALE CONOSCO ************ */
+
+.fale legend {
+    font-family: arial, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.fale fieldset {
+    border: none;
+    width: 480px;
+    height: 480px;
+}
+
+fieldset p {
+    margin: 15px auto 3px auto;
+
+}
+
+.fale input {
+    width: 480px;
+    height: 25px;
+    border-radius: 7px;
+}
+
+.fale textarea {
+    width: 480px;
+    height: 200px;
+    border-radius: 7px;
+    font-family: arial, sans-serif;
+}
+
+.fale input[type=button] {
+    width: 80px;
+    text-align: center;
+    margin: 10px 0px 0px 400px;
+}
+
+.fale {
+    float: right;
+    margin-right: 10px;
+}
+
+
+.fale fieldset legend {
+    font-family: arial, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: #0A3617;
+}
+
+.news fieldset {
+    border-radius: 7px;
+    width: 460px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+
+/* ************** NEWSLETTER *********** */
+.news input {
+    width: 480px;
+    height: 19px;
+    margin-top: 6px;
+    border-radius: 7px;
+}
+
+.news input[type=button] {
+    width: 50px;
+    text-align: center;
+    margin: 10px 0px 0px 430px;
+}
+
+.news {
+    float: right;
+    margin-left: 360px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.contato {
+    float: left;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+/* ********************* FOOTER ***************************** */
+
+
+.since {
+    position: relative;
+    clear: both;
+    font-size: 0.6 em;
+    text-align: center;
+}
+
+
+.redes {
+    float: right;
+    clear: both;
+    margin: 50px 0px 0px 0px;
+}
+
+
+/* ********************** GERAL **************************** */
+
+
+
+html {
+    background-color: white;
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    color: #0A3617;
+}
+
+h2 {
+    color: #0A3617;
+    font-size: 1.4em;
+
+}
+
+
+/* h2 PARA VALIDAÇÃO DO SITE */
+.oculto {
+    display: none;
+}
+
+/* CONTAINER PARA TAMANHO DAS PAGINAS */
+.capa {
+    max-width: 1100px;
+    margin: 0px auto;
+}
